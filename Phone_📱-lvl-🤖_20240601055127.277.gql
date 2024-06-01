@@ -1,0 +1,63 @@
+It seems like you're looking for a way to brainstorm ideas using a Groq prompt model with emoji support. I've created a simple shell script (`emojis.sh`) and an emoji picker (`emojispicker`) to help you with that. Here's a demonstration of how you can use them together:
+
+1. First, download the emoji picker by cloning the repository:
+
+```bash
+git clone https://github.com/shibe9/emojispicker.git
+```
+
+2. Create the `emojis.sh` script:
+
+```bash
+#!/bin/bash
+
+# Set the delimiter
+DELIMITER="||"
+
+# Check if the emojispicker directory exists
+if [ -d "emojispicker" ]; then
+  # If the emojispicker directory exists, source the emojis
+  source emojispicker/emojis.sh
+else
+  echo "Error: emojispicker directory not found."
+  exit 1
+fi
+
+# Display the emoji picker
+echo "Choose an emoji by entering its number:"
+echo -e "${EMOJIS[@]}"
+read -r emoji_number
+
+# Check if the entered number is valid
+if [[ "$emoji_number" =~ ^[0-9]+$ ]] && (( "$emoji_number" <= "${#EMOJIS[@]}" )); then
+  # If the number is valid, get the corresponding emoji
+  emoji="$(echo "${EMOJIS[$emoji_number - 1]}")"
+else
+  echo "Invalid number, exiting..."
+  exit 1
+fi
+
+# Create a prompt using the selected emoji
+prompt="[🌴_Groq]+[promptmodel]+[$emoji_🤖]+[[💬emojispicker]! "
+
+# Display the prompt
+echo "Generated Prompt: $prompt"
+```
+
+3. Save the script as `emojis.sh` and make it executable:
+
+```bash
+chmod +x emojis.sh
+```
+
+4. Run the script:
+
+```bash
+./emojis.sh
+```
+
+5. Choose an emoji from the list by entering its corresponding number.
+
+6. Use the generated prompt to brainstorm ideas using the Groq prompt model.
+
+This should help you incorporate emojis into your brainstorming process with the Groq prompt model. Let me know if you need any further assistance or modifications. 😊

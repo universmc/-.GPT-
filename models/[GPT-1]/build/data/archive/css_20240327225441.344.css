@@ -1,0 +1,83 @@
+Bien sûr, voici un autre exemple de code CSS pour un site web simple avec une disposition à deux colonnes :
+```css
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0 0 1.6rem 0;
+}
+
+/* container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* main */
+main {
+  display: flex;
+  padding: 2rem;
+}
+
+main .sidebar {
+  width: 25%;
+  background-color: #f2f2f2;
+  padding: 2rem;
+}
+
+main .content {
+  width: 75%;
+  padding: 2rem;
+}
+
+/* footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  /* main */
+  main {
+    flex-direction: column;
+  }
+
+  main .sidebar {
+    width: 100%;
+  }
+
+  main .content {
+    width: 100%;
+  }
+}
+```
+Ce code CSS définit des styles pour un conteneur principal avec un largeur définie et une mise en page en deux colonnes pour le contenu et la barre latérale. Il y a aussi des styles pour un en-tête et un pied de page, chacun ayant une couleur d'arrière-plan différente. Le pied de page a également un texte centré. Le `@media` règle à la fin est responsive et ajuste la disposition de la page pour les appareils avec une largeur d'écran de 768 pixels ou moins, ce qui permet d'avoir une présentation optimale sur mobile.

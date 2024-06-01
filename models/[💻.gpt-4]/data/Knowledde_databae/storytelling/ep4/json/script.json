@@ -1,0 +1,10 @@
+{
+    "Titre": "Episode X - Chapitre Y (Développement)",
+    "VersionPromptNarrative": "Cette version détaille l'histoire, les événements clés et les personnages, fournissant une fondation narrative riche. Elle explore le cadre, l'intrigue principale, les interactions clés et les moments décisifs du chapitre, offrant une compréhension complète de son déroulement.",
+    "VersionPromptDeveloppement": "Ce prompt se concentre sur l'approfondissement de l'histoire, examinant les thèmes sous-jacents, les motivations des personnages, et comment les événements s'entrelacent pour faire avancer l'intrigue. Il cherche à enrichir la trame narrative en ajoutant des couches de complexité et en explorant les implications plus larges des actions des personnages.",
+    "VersionPromptDialogue": "Cette version met en avant les échanges entre les personnages, mettant en scène leurs conversations, leurs conflits, et leurs révélations. Elle vise à donner vie aux personnages à travers leurs dialogues, révélant leurs personnalités, leurs désirs, et leurs dilemmes internes.",
+    "VersionPromptImages": "Ce prompt est spécialement conçu pour générer des images qui captent des moments clés, des scènes ou des éléments visuels importants du chapitre en utilisant des outils d'art génératif par IA, tels que DALL-E-3. Il décrit en détail les scènes à visualiser, en fournissant suffisamment de contexte pour permettre la création d'images cohérentes avec la narration.",
+    "VersionPromptVideos": "Un prompt destiné à la création de séquences vidéo à partir des images générées, en intégrant des mouvements, des transitions, et possiblement des éléments audio pour enrichir l'expérience narrative. Cela nécessitera l'utilisation d'outils adaptés à la génération de contenu vidéo.",
+    "VersionPromptDeveloppementChapitreSuivant": "Ce prompt est orienté vers l'anticipation et la planification des thèmes, des enjeux, et des événements du chapitre suivant. Il sert de pont entre les chapitres, en suggérant des directions potentielles pour l'évolution de l'histoire et en posant les bases pour de futurs développements narratifs."
+  }
+  

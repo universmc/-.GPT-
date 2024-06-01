@@ -1,0 +1,88 @@
+Je suis heureux de pouvoir vous aider. Si vous avez besoin d'autres exemples de code CSS ou d'assistance avec un projet spécifique, n'hésitez pas à me le demander. 
+
+En attendant, voici un exemple de code CSS pour un style de page web simple et clair qui utilise une disposition en trois colonnes avec une image en en-tête:
+```css
+/* Réinitialisation des valeurs par défaut du navigateur */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style de la zone d'en-tête avec image en fond */
+header {
+  background-image: url("header-image.jpg");
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* Style du conteneur principal avec trois colonnes */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr 300px;
+  grid-gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style de la colonne de gauche */
+aside:first-child {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style de la colonne centrale */
+section {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+/* Style de la colonne de droite */
+aside:last-child {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Style du pied de page */
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media queries pour les appareils mobiles */
+@media screen and (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  aside {
+    display: none;
+  }
+  header {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media queries pour les appareils à écran étroit */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    font-size: 1.5rem;
+  }
+}
+
+/* Media queries pour les appareils à écran large */
+@media screen and (min-width: 992px) {
+  header {
+    font-size: 2rem;
+  }
+}
+```
+Ce code css utilise des fonctionnalités CSS modernes telles que les grilles, les media queries et les sélecteurs avancés pour obtenir un style facile à lire et à comprendre. N'hésitez pas à le modifier et à l'adapter à vos besoins.

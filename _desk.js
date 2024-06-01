@@ -1,0 +1,35 @@
+const hudTensor="╔╗╚╝═║╠╣╦╩╬"
+const SCRIPT_DIR="./Users/universmc/.module_zsh" 
+
+
+const menu = [
+    console.log(""),
+    console.log(" ╔═══════════════════════════════════════════════════════════════════════════╗"),
+    console.log(" ║  [💫] [✨] [🧘] [📚] [🌌] [💬] [∏] [💰] [🌴] [📱] [💻] [📡]<       >[🛰 ]║"),
+    console.log(" ╠═══════════════════════════════════════════════════════════════════════════╣"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ║                                                                           ║"),
+    console.log(" ╠═══════════════════════════════════════════════════════════════════════════╣"),
+    console.log(" ║[$PS2]:/<                                                               /%>║"),
+    console.log(" ╚═══════════════════════════════════════════════════════════════════════════╝"),
+    console.log(""),
+]

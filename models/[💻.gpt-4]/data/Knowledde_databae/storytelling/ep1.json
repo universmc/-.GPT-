@@ -1,0 +1,33 @@
+{
+    "GPT-0": {
+    "description": "Le patriarche de la famille, première version, génération de texte à partir de prompts",
+    "role": "bloc de base",
+    "universe": "univers-mc.cloud"
+    },
+    "GPT-1": {
+    "description": "Premier modèle ouvert au public, meilleure génération de texte",
+    "role": "explorateur",
+    "universe": "univers-mc.cloud"
+    },
+    "GPT-Codex": {
+    "description": "Cousin de la famille GPT, spécialisé dans la génération de code",
+    "role": "artisan",
+    "universe": "univers-mc.cloud"
+    },
+    "GPT-2": {
+    "description": "Deuxième génération, meilleure compréhension du contexte et production de texte cohérent",
+    "role": "bâtisseur",
+    "universe": "univers-mc.cloud"
+    },
+    "GPT-3": {
+    "description": "Troisième génération, encore plus grande et performante",
+    "role": "savant",
+    "universe": "univers-mc.cloud"
+    },
+    "GPT-4": {
+    "description": "Quatrième génération en développement, prévu pour surpasser ses prédécesseurs",
+    "role": "aventureux",
+    "universe": "univers-mc.cloud"
+    }
+    }
+    

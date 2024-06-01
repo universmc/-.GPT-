@@ -1,0 +1,52 @@
+{
+  "roleCast": [
+    {
+      "_id": "umcTokens",
+      "role": "umcTokens",
+      "description": "umcTokens est le rôle responsable de la gestion de la crypto-monnaie UMC sur la plateforme univers-mc.cloud. Il est chargé de l'émission, du transfert et du suivi des jetons UMC, ainsi que de l'interaction avec les contrats intelligents et les protocoles décentralisés.",
+      "skills": [
+        {
+          "name": "Smart Contract Development",
+          "level": "Expert"
+        },
+        {
+          "name": "Blockchain Technology",
+          "level": "Advanced"
+        },
+        {
+          "name": "Cryptocurrency",
+          "level": "Advanced"
+        },
+        {
+          "name": "Solidity Programming",
+          "level": "Expert"
+        },
+        {
+          "name": "Web3.js",
+          "level": "Advanced"
+        }
+      ],
+      "responsibilities": [
+        "Gestion de la crypto-monnaie UMC sur la plateforme univers-mc.cloud",
+        "Émission, transfert et suivi des jetons UMC",
+        "Interaction avec les contrats intelligents et les protocoles décentralisés",
+        "Résolution des problèmes techniques et fonctionnels liés à la blockchain et aux jetons UMC",
+        "Collaboration avec les autres rôles pour assurer une intégration harmonieuse avec les autres fonctionnalités de la plateforme"
+      ],
+      "dependencies": [
+        {
+          "role": "Blockchain",
+          "description": "La blockchain est la technologie sous-jacente à la crypto-monnaie UMC et aux jetons UMC. Elle fournit la base pour la sécurité, la transparence et la décentralisation de la plateforme univers-mc.cloud."
+        },
+        {
+          "role": "Smart Contracts",
+          "description": "Les contrats intelligents sont des programmes autonomes qui s'exécutent sur la blockchain et gèrent les règles et les fonctionnalités de la crypto-monnaie UMC et des jetons UMC."
+        },
+        {
+          "role": "Web3.js",
+          "description": "Web3.js est une bibliothèque JavaScript qui permet aux navigateurs et aux applications de communiquer avec une blockchain Ethereum, ce qui est essentiel pour l'interaction avec la crypto-monnaie UMC et les jetons UMC."
+        }
+      ]
+    }
+  ]
+}

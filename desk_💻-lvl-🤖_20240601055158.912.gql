@@ -1,0 +1,31 @@
+[📔.codex]_Phase[01]:[RUN]:[brainstorming[.Generator.]] ➢ [🌴\_Groq]+[promptmodel]+[🤖\_emojis.sh]+[[💬emojispicker]!
+
+```diff
++------------------------------------------------------+
+|  ⚙️  Groq Prompt Brainstorming Generator [BETA]  🌴   |
++------------------------------------------------------+
+
+[📝] Greetings, welcome to the Groq Prompt Brainstorming Generator! 
+[📝] This helpful tool is designed to assist you in creating engaging, 
+[📝] and informative prompts for the Groq programming language. 
+
+[📝] To begin, please select one of the following categories:
+
+1. [🌱] Groq Basics
+2. [🔧] Groq Operations
+3. [📈] Groq Optimization
+4. [🤖] Groq Use Cases
+5. [🌐] Groq Connectivity
+
+[📝] Once you have made your selection, you will be presented with a list 
+[📝] of emojis related to that category. Simply enter the number(s) 
+[📝] corresponding to the emojis you would like to include in your prompt.
+
+[📝] When you are satisfied with your selection(s), enter 'DONE'. 
+[📝] Your personalized prompt will then be generated!
+
+[📝] Let's get started! Please enter the number of your desired category:
+```
+```
+
+```
